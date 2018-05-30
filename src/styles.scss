@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed:400,700|Quicksand:400,700');
+body{
+	min-height: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+}
+html{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+h1, h2, h3, h4, h5{
+	font-family: 'Cabin Condensed', sans-serif;
+}
