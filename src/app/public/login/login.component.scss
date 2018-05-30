@@ -1,0 +1,13 @@
+.form__container{
+	height: 100%;
+}
+.general__form{
+	background: #efefef;
+	padding: 30px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	margin-top: 10rem;
+	.form__input{
+		width: 100%;
+	}
+}
