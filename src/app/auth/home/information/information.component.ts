@@ -20,5 +20,9 @@ export class InformationComponent implements OnInit {
 			this.items = data
 		})
 	}
-
+	acceptUrl(event : Event, key){
+		event.preventDefault()
+		//Update status
+		this.data.updateStatus(key);
+	}
 }

@@ -14,7 +14,8 @@
 			<td>{{item.link.metadata.description | slice:0:50}} </td>
 			<td><img src="{{item.link.metadata.image}}" height="50px"></td>
 			<td>
-				<button value="{{item.key}}" mat-raised-button color="warn">Accept</button>
+				<button mat-raised-button color="warn" (click) ="acceptUrl($event, item.key)">Accept</button>
+
 			</td>
 		</tr>
 	</table>
