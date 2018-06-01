@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from "angularfire2/auth"
-import { environment } from '../../environments/environment'
+import { environment } from '../../../environments/environment'
 import { SessionStorageService } from 'ngx-webstorage'
 @Injectable({
 	providedIn: 'root'
