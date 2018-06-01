@@ -1,6 +1,6 @@
 import { SessionStorageService } from 'ngx-webstorage';
 import { Router } from '@angular/router';
-import { AuthService } from './../../common/auth.service';
+import { AuthService } from './../../common/services/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { User } from './user';
 
