@@ -4,16 +4,16 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+	"start": "node server.js",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "postinstall": "ng build --aot -prod",
-  "engines":{
-	"node":"8.9.1",
-	"npm": "5.8.0"
+  "engines": {
+    "node": "8.9.1",
+    "npm": "5.8.0"
   },
   "private": true,
   "dependencies": {
@@ -31,9 +31,11 @@
     "angularfire2": "^5.0.0-rc.10",
     "bootstrap": "^4.1.1",
     "core-js": "^2.4.1",
+    "express": "^4.16.3",
     "firebase": "^5.0.4",
     "jquery": "^3.3.1",
     "ngx-webstorage": "^2.0.1",
+    "path": "^0.12.7",
     "rxjs": "^6.2.0",
     "rxjs-compat": "^6.0.0-rc.0",
     "zone.js": "^0.8.19"
