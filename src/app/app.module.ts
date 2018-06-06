@@ -19,11 +19,13 @@ import { DataService } from './common/services/data.service';
 
 import { AuthGuard } from './common/guards/auth.guard';
 import { PublicGuard } from './common/guards/public.guard';
+import { NotFoundComponent } from './common/not-found/not-found.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		HeaderComponent
+		HeaderComponent,
+		NotFoundComponent
 	],
 	imports: [
 		BrowserModule,
